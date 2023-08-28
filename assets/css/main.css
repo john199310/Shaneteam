@@ -1220,12 +1220,29 @@ section {
 .cta {
   padding: 0;
   margin-bottom: 60px;
+  color: white;
+  /* background-size: 10%; */
 }
 
 .cta .container {
   padding: 80px;
-  background: rgba(var(--color-secondary-rgb), 0.1);
-  border-radius: 15px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.cta .container:first-child {
+  background-image: url(../img/mining.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.cta .container:before {
+  position: absolute;
+  content: '';
+  inset: 0;
+  background: rgba(var(--color-black-rgb), 0.8);
+  border-radius: 30px;
 }
 
 @media (max-width: 992px) {
@@ -1238,11 +1255,13 @@ section {
   color: var(--color-secondary);
   font-size: 48px;
   font-weight: 700;
+  z-index: 1;
 }
 
 .cta .content h3 em {
   font-style: normal;
   position: relative;
+  z-index: -1;
 }
 
 .cta .content h3 em:after {
@@ -1252,7 +1271,7 @@ section {
   right: 0;
   bottom: 10px;
   height: 10px;
-  background: rgba(var(--color-primary-rgb), 0.5);
+  background: rgba(var(--color-primary-rgb), 0.9);
   z-index: -1;
 }
 
@@ -1260,6 +1279,7 @@ section {
   color: var(--color-secondary);
   font-weight: 600;
   font-size: 18px;
+  z-index: 1;
 }
 
 .cta .content .cta-btn {
@@ -1272,10 +1292,12 @@ section {
   transition: 0.5s;
   margin-top: 10px;
   background: rgba(var(--color-primary-dark-rgb), 0.9);
+  z-index: 1;
 }
 
 .cta .content .cta-btn:hover {
   background: var(--color-primary);
+  z-index: 1;
 }
 
 .cta .img {

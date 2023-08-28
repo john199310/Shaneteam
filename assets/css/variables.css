@@ -97,6 +97,9 @@
   --color-gray: #6c757d;
   --color-gray-rgb: 108, 117, 125;
 
+  --color-dark:var(--bs-dark);
+  --color-dark-rgb: 33, 37, 41;
+
   --color-black: #000000;
   --color-black-rgb: 0, 0, 0;
   
@@ -214,3 +217,4 @@
 .bg-white { background-color: var(--color-white) !important; }
 .bg-gray { background-color: var(--color-gray) !important; }
 .bg-black { background-color: var(--color-black) !important; }
+.bg-dark { background-color: var(--bs-dark) !important; }
