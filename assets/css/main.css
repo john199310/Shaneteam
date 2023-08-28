@@ -1186,7 +1186,7 @@ section {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: var(--color-dark);
 }
 
 .about .tab-content i {
@@ -2145,7 +2145,7 @@ section {
   font-weight: 400;
   margin-bottom: 5px;
   font-size: 24px;
-  color: var(--color-secondary);
+  color: var(--color-dark);
 }
 
 .team .team-member .member-info span {
@@ -3041,7 +3041,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--color-white);
+  color: var(--color-dark);
   font-size: 14px;
 }
 
@@ -3072,13 +3072,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: var(--font-primary);
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-white);
+  color: var(--color-dark);
   position: relative;
   padding-bottom: 12px;
   margin-bottom: 15px;
@@ -3107,7 +3107,7 @@ section {
 
 .footer .footer-content .footer-links ul i {
   padding-right: 2px;
-  color: var(--color-white);
+  color: var(--color-dark);
   font-size: 12px;
   line-height: 1;
 }
@@ -3123,14 +3123,14 @@ section {
 }
 
 .footer .footer-content .footer-links ul a {
-  color: rgba(var(--color-white-rgb), 0.7);
+  color: rgba(var(--color-dark-rgb), 0.7);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-content .footer-links ul a:hover {
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .footer .footer-content .footer-newsletter form {
@@ -3161,7 +3161,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: var(--color-primary);
-  color: var(--color-white);
+  color: var(--color-dark);
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
@@ -3178,7 +3178,7 @@ section {
 .footer .footer-legal .credits {
   padding-top: 4px;
   font-size: 13px;
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .footer .footer-legal .credits a {
@@ -3189,7 +3189,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: rgba(var(--color-white-rgb), 0.1);
-  color: var(--color-white);
+  color: var(--color-dark);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
